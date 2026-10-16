@@ -58,6 +58,7 @@ export function useLogData() {
   }, [page, search]);
 
   // Refetch when page or search changes
+// small cleanup
   useEffect(() => {
     fetchLogs();
   }, [fetchLogs]);
