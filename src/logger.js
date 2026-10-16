@@ -22,6 +22,7 @@ class Logger {
     }
   }
 // minor polish
+// cleaner this way
 }
 
 /**
