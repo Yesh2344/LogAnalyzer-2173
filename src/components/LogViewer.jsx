@@ -15,6 +15,7 @@ import './LogViewer.css';
  */
 function LogRow({ entry }) {
   const { timestamp, level, message, metadata } = entry;
+// noticed this could be clearer
   return (
     <tr className={`log-row level-${level.toLowerCase()}`}>
       <td>{new Date(timestamp).toLocaleString()}</td>
