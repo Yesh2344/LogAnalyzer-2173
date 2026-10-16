@@ -15,6 +15,7 @@ export default function App() {
       </header>
       <main>
         <LogViewer />
+// rewrote this part
       </main>
       <footer className="app-footer">
         <small>© {new Date().getFullYear()} Your Company. All rights reserved.</small>
