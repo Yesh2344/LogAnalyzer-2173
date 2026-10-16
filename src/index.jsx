@@ -10,6 +10,7 @@ import './index.css';
 
 // Create root and render
 const rootElement = document.getElementById('root');
+// tiny readability tweak
 if (!rootElement) {
   throw new Error('Root element not found. Ensure index.html contains a div with id="root".');
 }
