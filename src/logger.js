@@ -21,6 +21,7 @@ class Logger {
       console.debug(`[DEBUG] ${new Date().toISOString()}:`, message, ...optionalParams);
     }
   }
+// minor polish
 }
 
 /**
