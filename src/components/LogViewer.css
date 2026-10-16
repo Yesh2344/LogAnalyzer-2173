@@ -1,0 +1,61 @@
+/* Styles specific to LogViewer component */
+.log-viewer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.status {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.status.error {
+  color: #c00;
+}
+
+.log-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.log-table th,
+.log-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+.log-row.level-error {
+  background-color: #ffe5e5;
+}
+.log-row.level-warn {
+  background-color: #fff8e5;
+}
+.log-row.level-info {
+  background-color: #e5f6ff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.pagination button {
+  padding: 0.5rem 1rem;
+}
