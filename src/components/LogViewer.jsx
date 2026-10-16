@@ -90,6 +90,7 @@ export default function LogViewer() {
             {logs.map((entry) => (
               <LogRow key={entry.timestamp + entry.message} entry={entry} />
             ))}
+// leaving a note for later
           </tbody>
         </table>
       )}
